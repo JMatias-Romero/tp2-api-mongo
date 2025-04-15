@@ -1,0 +1,22 @@
+{
+  "name": "tp2-api",
+  "version": "1.0.0",
+  "description": "TP 2 api con mongodb utilizando mongoose",
+  "license": "ISC",
+  "author": "Matias Romero",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}
